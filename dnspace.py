@@ -27,10 +27,11 @@ def get_parser():
         help="output file. default(cover input file)",
     )
     parser.add_argument(
-        '-v',
-        '--version',
-        action='store_true',
-        help='displays the current version of `space`')
+        "-v",
+        "--version",
+        action="store_true",
+        help="displays the current version of `space`",
+    )
     return parser
 
 
@@ -47,6 +48,7 @@ def command_line_runner():
     if not args["docs"]:
         parser.print_help()
         return
+
     add_space(args["docs"], args["output"])
 
 
@@ -65,7 +67,7 @@ def add_space(docs, output=None):
             )
         if output is None:
             output = docs
-        with codecs.open(output, 'w+', encoding="utf-8") as f:
+        with codecs.open(output, "w+", encoding="utf-8") as f:
             f.write(result)
 
     else:
