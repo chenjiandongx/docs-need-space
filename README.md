@@ -1,4 +1,4 @@
-# docs need space
+# docs need space [![PyPI version](https://badge.fury.io/py/dnspace.svg)](https://badge.fury.io/py/dnspace) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 自从使用 markdown 写文档以后，已经强迫自己中英，中数字之间一定要加空格，不然看起来很难受...，所以写了个文档空格检查工具。
 
